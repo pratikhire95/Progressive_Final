@@ -3,7 +3,7 @@
 <form (ngSubmit)="onSubmit()" [formGroup]="accountForm" class="user-form">
     <div class="form-group">
         <label for="userId">Customer:</label>
-        <select formControlName="customer" (change)="changedVal()" [(ngModel)]="selectedValue">
+        <select formControlName="customer" (change)="changedVal()">
             <option value="">Select a Customer</option>
             <option *ngFor="let customer of customers$ | async" [ngValue]="customer">
                 {{ customer.name }}
