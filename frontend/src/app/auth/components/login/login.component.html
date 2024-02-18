@@ -25,7 +25,9 @@
 
 
 
-    <button type="submit">Log in</button>
+    <div class="text text-center">
+        <button type="submit">Log in</button>
+    </div>
     <a routerLink="/auth/add-user" class="task-list" class="task-list">Sign up</a>
 
     <div *ngIf="loginError$ | async as error" class="error">

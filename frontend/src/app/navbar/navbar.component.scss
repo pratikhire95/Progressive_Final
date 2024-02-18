@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #333;
+    background-color: #aad6ec;
     overflow: hidden;
 }
 
@@ -16,13 +16,16 @@
 
 .navbar a {
     display: block;
-    color: white;
+    color: black;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration:solid;
 }
 
 .navbar a:hover {
     background-color: #ddd;
     color: black;
+    
 }

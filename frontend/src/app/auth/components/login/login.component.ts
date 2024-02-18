@@ -49,7 +49,7 @@ export class LoginComponent implements OnInit {
                     }),
                     catchError((error) => {
                         console.error("Login error:", error);
-                        return of({ message: "Login error:" + error });
+                        return of({ message: "Login error: Incorrect Username & Password"});
                     })
                 );
         }
